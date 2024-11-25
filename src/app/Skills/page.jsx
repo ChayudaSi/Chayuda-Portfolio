@@ -64,7 +64,7 @@ function Skills() {
         {skill.map((skill) => (
           <div key={skill.id} className = "bg-gray-800 rounded-[10px] flex flex-col items-center hover:scale-105 duration-300">
             <h2 className = "font-bold text-2xl pt-2 pb-2 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-orange-500 text-shadow">{skill.title}</h2>
-            <img className = "w-[150px] pt-5 mt-1 mb-5" src= {skill.image}/>
+            <Image alt="skill" className = "w-[150px] pt-5 mt-1 mb-5" src= {skill.image}/>
           </div>
         ))}
          

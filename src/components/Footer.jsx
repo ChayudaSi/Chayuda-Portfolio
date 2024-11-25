@@ -5,7 +5,7 @@ function Footer() {
     <div className="bg-gray-800 shadow-xl mx-auto">
         <div className = "text-center text-white">
             <h2 className="mx-8 font-black text-2xl pt-2">
-            Chayuda's{" "}
+            Chayuda&apos;s{" "}
                 <span className="text-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-orange-500">
             Portfolio
                 </span>
