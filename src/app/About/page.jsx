@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 
 function About() {
 
@@ -17,9 +18,10 @@ function About() {
   return (
     <div className="flex justify-center items-center mt-5" id="about">
       <div className="bg-gray-800 max-w-7xl rounded-xl flex flex-wrap shadow-xl text-white mt-12">
-        <img 
+        <Image 
           className="object-cover rounded-l-xl w-full md:w-1/2" 
-          src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462563189_1687634331813872_7254341285214983393_n.jpg?stp=dst-jpg_s640x640&_nc_cat=101&ccb=1-7&_nc_sid=0024fc&_nc_ohc=34CUvYLfw-kQ7kNvgHN0VHM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QFuDbYsOCBjnw4b679lWIrjkFj3bUZjt0Zg4hAFCzZM3A&oe=676B8AA2" 
+          src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462563189_1687634331813872_7254341285214983393_n.jpg?stp=dst-jpg_s640x640&_nc_cat=101&ccb=1-7&_nc_sid=0024fc&_nc_ohc=34CUvYLfw-kQ7kNvgHN0VHM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QFuDbYsOCBjnw4b679lWIrjkFj3bUZjt0Zg4hAFCzZM3A&oe=676B8AA2"
+          alt = "chayuda_img" 
         />
         <div className="px-5 w-full md:w-1/2">
           <div className="flex items-center mt-10">
@@ -33,7 +35,7 @@ function About() {
         </span></h3>
           </div>
 
-          <h2 className="font-bold text-3xl pt-5">I'm Chayuda Sirithanchat (Noey)</h2>
+          <h2 className="font-bold text-3xl pt-5">I&apos;m Chayuda Sirithanchat (Noey)</h2>
           <p className="pt-2 text-gray-400">I am passionate about technology and problem-solving, holding a Bachelor's Degree in Embedded System Engineering from Burapha University. During my studies, I gained deep knowledge in both hardware and software systems, particularly in embedded systems, microcontrollers, and real-time operating systems.</p>
           <p className="pt-2 text-gray-400">With hands-on experience as a Software Engineer, I have contributed to various projects involving embedded systems and software development. I have worked on designing, testing, and implementing embedded solutions that integrate hardware and software seamlessly. Additionally, I have experience in creating efficient and scalable software applications, working with different programming languages and tools.</p>
           <p className="pt-2 text-gray-400">I am particularly drawn to Frontend Development, where I can combine my technical expertise with creativity to build user-friendly and visually appealing interfaces. I am passionate about enhancing user experiences and am constantly exploring new web technologies, such as React and Next.js, to develop intuitive, responsive web applications. Throughout my projects, I have developed strong problem-solving skills and the ability to adapt to new technologies quickly. I am enthusiastic about working in dynamic environments and continuously improving my skills to meet the demands of the evolving tech landscape.</p>
