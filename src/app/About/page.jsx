@@ -4,7 +4,7 @@ import React from 'react'
 import Image from 'next/image';
 
 function About() {
-
+  
   const handleResumeClick = () => {
     window.open("https://drive.google.com/file/d/12f4QaS5wKgnIX6IjmSMiMs4VXl03pHIG/view?usp=sharing", "_blank");
   };
