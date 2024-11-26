@@ -1,3 +1,5 @@
+"use client"
+
 import React from "react";
 
 const ContactActions = () => {
@@ -31,7 +33,7 @@ const ContactActions = () => {
           setResult(data.message);
         }
       };
-      
+
   return (
     <div>
       <button
