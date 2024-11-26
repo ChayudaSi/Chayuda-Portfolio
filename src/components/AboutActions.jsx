@@ -18,19 +18,19 @@ function AboutActions() {
   return (
     <div className="pt-5 flex gap-2">
       <button 
-        className="flex shadow-xl font-bold bg-gradient-to-r from-green-400 to-blue-500 rounded-full px-4 py-1 transform transition-transform duration-300 hover:from-pink-500 hover:to-orange-500 hover:scale-105 hover:shadow-sm mt-5 cursor: pointer;" 
+        className="justify-center items-center flex shadow-xl font-bold bg-gradient-to-r from-green-400 to-blue-500 rounded-full px-4 py-1 transform transition-transform duration-300 hover:from-pink-500 hover:to-orange-500 hover:scale-105 hover:shadow-sm mt-5 cursor: pointer; w-[100px] h-[30px]" 
         onClick={handleLinkedlnClick}
       >
         Linkedln
       </button>
       <button 
-        className="flex shadow-xl font-bold bg-gradient-to-r from-green-400 to-blue-500 rounded-full px-4 py-1 transform transition-transform duration-300 hover:from-pink-500 hover:to-orange-500 hover:scale-105 hover:shadow-sm mt-5 cursor: pointer;" 
+        className="justify-center items-center flex shadow-xl font-bold bg-gradient-to-r from-green-400 to-blue-500 rounded-full px-4 py-1 transform transition-transform duration-300 hover:from-pink-500 hover:to-orange-500 hover:scale-105 hover:shadow-sm mt-5 cursor: pointer; w-[85px] h-[30px]" 
         onClick={handleGithubClick}
       >
         Github
       </button>
       <button 
-        className="flex shadow-xl font-bold bg-gradient-to-r from-green-400 to-blue-500 rounded-full px-4 py-1 transform transition-transform duration-300 hover:from-pink-500 hover:to-orange-500 hover:scale-105 hover:shadow-sm animate-bounce mt-5 cursor: pointer;" 
+        className="justify-center items-center flex shadow-xl font-bold bg-gradient-to-r from-green-400 to-blue-500 rounded-full px-4 py-1 transform transition-transform duration-300 hover:from-pink-500 hover:to-orange-500 hover:scale-105 hover:shadow-sm animate-bounce mt-5 cursor: pointer; w-[180px] h-[30px]" 
         onClick={handleResumeClick}
       >
         View Resume

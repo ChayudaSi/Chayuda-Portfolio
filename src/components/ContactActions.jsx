@@ -8,7 +8,7 @@ const ContactActions = () => {
     <div>
       <button
         type="submit"
-        className="flex items-center justify-center space-x-2 text-xl hover:scale-105 duration-300"
+        className="flex text-l items-center justify-center space-x-2 text-xl hover:scale-105 duration-300 w-[120px] h-[30px]"
       >
         Submit
         <svg
