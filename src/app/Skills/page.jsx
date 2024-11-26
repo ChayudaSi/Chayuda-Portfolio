@@ -4,12 +4,12 @@ import Image from 'next/image'
 const skill = [
   {
     id: 1,
-    image: "/Images/CProgram.png",
+    image: "/Images/CProgram.jpg",
     title: "C",
   },
   {
     id: 2,
-    image: "/Images/C++Program.png",
+    image: "/Images/C++Program.jpg",
     title: "C++",
   },
   {
