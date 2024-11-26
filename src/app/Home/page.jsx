@@ -15,7 +15,7 @@ function About() {
             width={500} height={300}/>
           </div>
 
-          <h2 className = "text-4xl font-bold text-center mt-5 ">I'm {""}<span className='text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500' > Chayuda Sirithanchat</span><br/>
+          <h2 className = "text-4xl font-bold text-center mt-5 ">I&apos;m {""}<span className='text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500' > Chayuda Sirithanchat</span><br/>
           <TypeAnimation
           sequence = {["Embedded System Engineer",1000,"FrontEnd Developer",1000]} wrapper="span" speed={50} repeat={Infinity} /></h2>
           <p className = "text-lg text-center mt-2 text-gray-300">I am possionate about Embedded System and Frontend development</p>
