@@ -1,6 +1,9 @@
+"use client";
+
 import React from 'react'
 import './contact.css'
 import Swal from 'sweetalert2';
+
 
 function Contact() {
 
