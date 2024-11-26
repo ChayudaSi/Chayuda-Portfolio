@@ -4,47 +4,47 @@ import Image from 'next/image'
 const skill = [
   {
     id: 1,
-    image: "https://cdn-icons-png.flaticon.com/128/3665/3665923.png",
+    image: "/Images/CProgram.png",
     title: "Programming C",
   },
   {
     id: 2,
-    image: "https://cdn-icons-png.flaticon.com/128/6132/6132222.png",
+    image: "/Images/C++Program.png",
     title: "Programming C++",
   },
   {
     id: 3,
-    image: "https://cdn-icons-png.flaticon.com/128/2772/2772128.png",
+    image: "/Images/sql.png",
     title: "SQL",
   },
   {
     id: 4,
-    image: "https://cdn-icons-png.flaticon.com/128/5968/5968350.png",
+    image: "/Images/python.png",
     title: "Python",
   },
   {
     id: 5,
-    image: "https://cdn-icons-png.flaticon.com/128/1051/1051277.png",
+    image: "/Images/html.png",
     title: "HTML",
   },
   {
     id: 6,
-    image: "https://cdn-icons-png.flaticon.com/128/732/732190.png",
+    image: "/Images/css.png",
     title: "CSS",
   },
   {
     id: 7,
-    image: "https://cdn-icons-png.flaticon.com/128/1126/1126012.png",
+    image: "/Images/react.png",
     title: "React",
   },
   {
     id: 8,
-    image: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/nextjs-icon.png",
+    image: "/Images/nextjs.webp",
     title: "NextJS",
   },
   {
     id: 9,
-    image: "https://cdn3d.iconscout.com/3d/free/thumb/free-tailwind-3d-icon-download-in-png-blend-fbx-gltf-file-formats--html-logo-css-framework-customizable-coding-lang-pack-logos-icons-7577995.png?f=webp",
+    image: "/Images/tailwind.webp",
     title: "Tailwind CSS",
   },
 ];
@@ -64,7 +64,7 @@ function Skills() {
         {skill.map((skill) => (
           <div key={skill.id} className = "bg-gray-800 rounded-[10px] flex flex-col items-center hover:scale-105 duration-300">
             <h2 className = "font-bold text-2xl pt-2 pb-2 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-orange-500 text-shadow">{skill.title}</h2>
-            <Image alt="skill" className = "w-[150px] pt-5 mt-1 mb-5" src= {skill.image}/>
+            <Image alt="skill" className = "w-[150px] pt-5 mt-1 mb-5" width={300} height={300} src= {skill.image} />
           </div>
         ))}
          

@@ -19,9 +19,10 @@ function About() {
     <div className="flex justify-center items-center mt-5" id="about">
       <div className="bg-gray-800 max-w-7xl rounded-xl flex flex-wrap shadow-xl text-white mt-12">
         <Image 
-          className="object-cover rounded-l-xl w-full md:w-1/2" 
-          src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462563189_1687634331813872_7254341285214983393_n.jpg?stp=dst-jpg_s640x640&_nc_cat=101&ccb=1-7&_nc_sid=0024fc&_nc_ohc=34CUvYLfw-kQ7kNvgHN0VHM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QFuDbYsOCBjnw4b679lWIrjkFj3bUZjt0Zg4hAFCzZM3A&oe=676B8AA2"
-          alt = "chayuda_img" 
+          className="object-cover rounded-l-xl w-full md:w-1/2 " 
+          src="/Images/img_Chayuda.jpg"
+          alt = "chayuda_img"
+          width={500} height={300} 
         />
         <div className="px-5 w-full md:w-1/2">
           <div className="flex items-center mt-10">
