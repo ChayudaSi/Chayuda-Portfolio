@@ -36,13 +36,13 @@ const Timeline = ({events}) => {
           {/* Timeline content */}
           <div className = "grid grid-cols-[1fr_auto_1fr] gap-x-4 p-4">
             {event.direction === 'left'?(
-              <EventCard year={event.year} title = {event.title} location={event.location} description={event.description} className="text-center md:text-left"/>
+              <EventCard year={event.year} title = {event.title} location={event.location} description={event.description} />
             ):(
               <div></div>
             )}
             <Pillar/>
             {event.direction === 'right'?(
-              <EventCard year={event.year} title = {event.title} location={event.location} description={event.description} className="text-center md:text-left"/>
+              <EventCard year={event.year} title = {event.title} location={event.location} description={event.description} />
             ):(
               <div></div>
             )}
