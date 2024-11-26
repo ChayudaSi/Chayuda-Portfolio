@@ -14,7 +14,7 @@ function About() {
   };
 
   const handleGithubClick = () => {
-    window.open("https://drive.google.com/file/d/12f4QaS5wKgnIX6IjmSMiMs4VXl03pHIG/view?usp=sharing", "_blank");
+    window.open("https://github.com/ChayudaSi?tab=repositories", "_blank");
   };
 
   return (
