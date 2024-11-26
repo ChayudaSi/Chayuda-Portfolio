@@ -103,7 +103,7 @@ const EventCard = ({role, location,date,description}) => {
 
 function Experience() {
   return (
-    <div className= "flex flex-warp">
+    <div className= "flex flex-warp" id="experience">
       <Timeline events={experience} />
     </div>
   );
