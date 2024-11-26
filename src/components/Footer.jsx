@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className="bg-gray-800 shadow-xl mx-auto">
+    <div className="bg-gray-800 shadow-xl mx-auto ">
         <div className = "text-center text-white">
             <h2 className="mx-8 font-black text-2xl pt-2">
             Chayuda&apos;s{" "}
@@ -13,7 +13,7 @@ function Footer() {
             <p className="text-gray-300 border-b">Thank you for visiting my personal portfolio website.I hope you enjoyed exploring my work. For inquiries or collaborations, don’t hesitate to reach out.</p>
         </div> 
         <h2 className = "text-center text-white mt-2 text-xl font-bold">Quick Menu</h2>
-        <div className = "text-white text-l font-bold flex gap-5 justify-center pb-5">  
+        <div className = "text-white text-l font-bold flex gap-5 justify-center pb-5 flex-wrap">  
             <div className = "flex rounded-full p-1">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 1 16 16" fill="currentColor" class="size-6">
                     <path d="M8.543 2.232a.75.75 0 0 0-1.085 0l-5.25 5.5A.75.75 0 0 0 2.75 9H4v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-1a1 1 0 1 1 2 0v1a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V9h1.25a.75.75 0 0 0 .543-1.268l-5.25-5.5Z" />

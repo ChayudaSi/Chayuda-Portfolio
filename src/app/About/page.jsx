@@ -66,7 +66,7 @@ function About() {
             <p className="mx-2">Email: n.sirithan16@gmail.com</p>
           </div>
           
-          <div className="pt-5 flex gap-2">
+          <div className="pt-5 flex gap-2 pb-5">
             <AboutActions /> {/* Use AboutActions component for the buttons and event handlers */}
           
           </div>

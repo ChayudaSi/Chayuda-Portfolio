@@ -5,12 +5,12 @@ const skill = [
   {
     id: 1,
     image: "/Images/CProgram.png",
-    title: "Programming C",
+    title: "C",
   },
   {
     id: 2,
     image: "/Images/C++Program.png",
-    title: "Programming C++",
+    title: "C++",
   },
   {
     id: 3,
@@ -63,7 +63,7 @@ function Skills() {
       <div className = "w-90 grid grid-cols-3 md:grid-cols-3 gap-5 mx-5 mt-5 my-5">
         {skill.map((skill) => (
           <div key={skill.id} className = "bg-gray-800 rounded-[10px] flex flex-col items-center hover:scale-105 duration-300">
-            <h2 className = "font-bold text-2xl pt-2 pb-2 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-orange-500 text-shadow">{skill.title}</h2>
+            <h2 className = " md-sm font-bold text-2xl pt-2 pb-2 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-orange-500 text-shadow">{skill.title}</h2>
             <Image alt="skill" className = "w-[150px] pt-5 mt-1 mb-5" width={300} height={300} src= {skill.image} />
           </div>
         ))}
