@@ -9,7 +9,7 @@ const skill = [
   },
   {
     id: 2,
-    image: "/Images/C.jpg",
+    image: "/Images/C++.jpg",
     title: "C++",
   },
   {
