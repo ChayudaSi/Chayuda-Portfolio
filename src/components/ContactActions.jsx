@@ -1,6 +1,37 @@
 import React from "react";
 
 const ContactActions = () => {
+
+    const onSubmit = async (event) => {
+        event.preventDefault();
+        const formData = new FormData(event.target);
+    
+        formData.append("access_key", "831c1671-d557-40e2-9a57-54ca6d408f9d");
+    
+        const response = await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          body: formData
+        });
+    
+        const data = await response.json();
+    
+        if (data.success) {
+          Swal.fire({
+            title: "Success!",
+            text: "Your message sent successfully!",
+            icon: "success"
+          });
+          event.target.reset();
+        } else {
+          Swal.fire({
+            title: "Fail!",
+            text: "Your message can't send! ",
+            icon: "error"
+          });
+          setResult(data.message);
+        }
+      };
+      
   return (
     <div>
       <button
